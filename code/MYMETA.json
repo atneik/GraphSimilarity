@@ -1,0 +1,38 @@
+{
+   "abstract" : "Calculate similarity of the vertices in graph(s)",
+   "author" : [
+      "Shohei Kameda <shoheik@cpan.org>"
+   ],
+   "dynamic_config" : 0,
+   "generated_by" : "Module::Build version 0.4005, CPAN::Meta::Converter version 2.112621",
+   "license" : [
+      "perl_5"
+   ],
+   "meta-spec" : {
+      "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
+      "version" : "2"
+   },
+   "name" : "Graph-Similarity",
+   "prereqs" : {
+      "runtime" : {
+         "requires" : {
+            "Graph" : 0,
+            "Math::Matrix" : 0,
+            "Moose" : 0,
+            "Moose::Role" : 0,
+            "Test::Exception" : 0,
+            "Test::More" : 0,
+            "Test::Output" : 0,
+            "Text::Levenshtein" : 0,
+            "version" : 0
+         }
+      }
+   },
+   "release_status" : "stable",
+   "resources" : {
+      "license" : [
+         "http://dev.perl.org/licenses/"
+      ]
+   },
+   "version" : "v0.0.3"
+}

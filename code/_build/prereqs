@@ -1,0 +1,18 @@
+do{ my $x = {
+       'build_requires' => {},
+       'test_requires' => {},
+       'conflicts' => {},
+       'requires' => {
+                       'Moose::Role' => 0,
+                       'Test::Exception' => 0,
+                       'version' => 0,
+                       'Text::Levenshtein' => 0,
+                       'Graph' => 0,
+                       'Test::More' => 0,
+                       'Math::Matrix' => 0,
+                       'Test::Output' => 0,
+                       'Moose' => 0
+                     },
+       'recommends' => {}
+     };
+$x; }
